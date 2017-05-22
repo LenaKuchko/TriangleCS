@@ -1,0 +1,21 @@
+@{
+  Layout="Shared/_Layout.cshtml";
+}
+
+  <body>
+    <h1>Enter three numbers to make a triangle!</h1>
+    <form action='/result'>
+      <div class='form-group'>
+        <label for='side1'>The side1 of your triangle</label>
+        <input id='side1' name='side1' class='form-control' type='text'>
+      </div>
+      <div class='form-group'>
+        <label for='side2'>The side2 of your triangle</label>
+        <input id='side2' name='side2' class='form-control' type='text'>
+      </div>
+      <div class='form-group'>
+        <label for='side3'>The side3 of your triangle</label>
+        <input id='side3' name='side3' class='form-control' type='text'>
+      </div>
+      <button type='submit' class='btn'>Calculate your triangle type!</button>
+    </form>
